@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="landing-page" id="landingPage">
+        <h1>Language Learning</h1>
+        <button id="startQuizBtn">Lets Start</button>
+    </div>
+
+    <div class="container" id="quizContainer" style="display: none;">
+        <div class="sidebar">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#" id="htmlCategory">HTML</a></li>
+                <li><a href="#" id="cssCategory">CSS</a></li>
+                <li><a href="#" id="jsCategory">JavaScript</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 id="categoryTitle">Select a category to start</h2>
+            <p id="categoryDescription"></p>
+            <div id="quizContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
